@@ -1,0 +1,68 @@
+{
+  "restaurante": "La Panadería",
+  "tagline": "Café & Panificados",
+  "instagram": "@lapanaderia.mg",
+  "categorias": [
+    {
+      "nombre": "Cafetería",
+      "items": [
+        { "nombre": "Espresso", "precio": "" },
+        { "nombre": "Ristretto", "precio": "" },
+        { "nombre": "Cortado en jarro", "precio": "" },
+        { "nombre": "Café con leche doble", "precio": "" },
+        { "nombre": "Cortado doble", "precio": "" },
+        { "nombre": "Cappuccino", "precio": "" },
+        { "nombre": "Chocolatada", "precio": "" },
+        { "nombre": "Submarino", "precio": "" },
+        { "nombre": "Té", "precio": "" },
+        { "nombre": "Té verde", "precio": "" },
+        { "nombre": "Té variedad", "precio": "" },
+        { "nombre": "Mate cocido", "precio": "" }
+      ]
+    },
+    {
+      "nombre": "Panificados",
+      "items": [
+        { "nombre": "Medialunas", "precio": "" },
+        { "nombre": "Facturas", "precio": "" },
+        { "nombre": "Criollos", "precio": "" },
+        { "nombre": "Porción de torta", "precio": "" },
+        { "nombre": "Especialidades a elección", "precio": "" }
+      ]
+    },
+    {
+      "nombre": "Sandwiches",
+      "items": [
+        { "nombre": "Tostado en pan árabe", "precio": "" },
+        { "nombre": "Sandwiches de miga", "precio": "" },
+        { "nombre": "Baguetín", "precio": "" }
+      ]
+    },
+    {
+      "nombre": "Desayunos",
+      "items": [
+        { "nombre": "Desayuno simple", "descripcion": "Infusión + 2 panificados", "precio": "" },
+        { "nombre": "Desayuno completo", "descripcion": "Infusión + 2 panificados + mermelada + manteca + jugo", "precio": "" },
+        { "nombre": "Combo licuado", "descripcion": "1 licuado + tostado", "precio": "" },
+        { "nombre": "Desayuno saludable", "descripcion": "Infusión + 3 tostadas integrales + mermelada + queso crema + jugo de naranja", "precio": "" },
+        { "nombre": "Combo dulce", "descripcion": "Infusión + porción de torta (consultar opciones)", "precio": "" }
+      ]
+    },
+    {
+      "nombre": "Bebidas",
+      "items": [
+        { "nombre": "Licuado", "precio": "" },
+        { "nombre": "Jugo de naranja en vaso", "precio": "" },
+        { "nombre": "Jugo de naranja en jarra", "precio": "" },
+        { "nombre": "Limonada en vaso", "precio": "" },
+        { "nombre": "Limonada en jarra", "precio": "" },
+        { "nombre": "Gaseosa 500 ml", "precio": "" },
+        { "nombre": "Gaseosa 1,5 lts", "precio": "" },
+        { "nombre": "Agua saborizada 500 ml", "precio": "" },
+        { "nombre": "Agua saborizada 1,5 lts", "precio": "" },
+        { "nombre": "Agua con gas 500 ml", "precio": "" },
+        { "nombre": "Agua sin gas 500 ml", "precio": "" }
+      ]
+    }
+  ]
+}

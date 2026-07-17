@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Panadería · Menú</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- textura de fondo -->
+  <svg class="bg-texture" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,20 Q25,10 50,20 T100,20" />
+    <path d="M0,50 Q25,40 50,50 T100,50" />
+    <path d="M0,80 Q25,70 50,80 T100,80" />
+  </svg>
+
+  <header class="hero">
+    <svg class="croissant-mark" viewBox="0 0 60 40" aria-hidden="true">
+      <path d="M5,30 Q10,10 25,8 Q40,6 45,18 Q48,25 42,28 Q35,20 25,20 Q15,20 10,32 Z" />
+    </svg>
+    <h1>La Panadería</h1>
+    <p class="tagline">Café &amp; Panificados</p>
+    <p class="hint">Deslizá para ver las categorías ↓</p>
+  </header>
+
+  <nav class="cat-nav" id="catNav" aria-label="Categorías del menú"></nav>
+
+  <main id="menu"></main>
+
+  <footer class="thanks">
+    <svg class="croissant-mark small" viewBox="0 0 60 40" aria-hidden="true">
+      <path d="M5,30 Q10,10 25,8 Q40,6 45,18 Q48,25 42,28 Q35,20 25,20 Q15,20 10,32 Z" />
+    </svg>
+    <p>¡Gracias por elegir La Panadería! 🤎</p>
+    <p class="small">Esperamos que hayas disfrutado este momento tanto como nosotros disfrutamos prepararlo para vos.</p>
+    <p class="ig" id="igHandle"></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
