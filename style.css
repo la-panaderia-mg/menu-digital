@@ -146,16 +146,10 @@ main {
   margin-bottom: 16px;
 }
 
-.categoria-header svg {
-  width: 20px;
-  height: 20px;
+.categoria-emoji {
+  font-size: 1.4rem;
+  line-height: 1;
   flex: 0 0 auto;
-}
-.categoria-header svg path {
-  fill: none;
-  stroke: var(--terracota);
-  stroke-width: 3;
-  stroke-linecap: round;
 }
 
 .categoria h2 {

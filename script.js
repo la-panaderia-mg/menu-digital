@@ -1,3 +1,15 @@
+const EMOJI_CATEGORIA = {
+  'cafetería': '☕',
+  'panificados': '🥐',
+  'sandwiches': '🥪',
+  'desayunos': '🍳',
+  'bebidas': '🥤'
+};
+
+function getEmoji(nombre) {
+  return EMOJI_CATEGORIA[nombre.toLowerCase()] || '🍞';
+}
+
 async function initMenu() {
   const nav = document.getElementById('catNav');
   const main = document.getElementById('menu');
@@ -22,7 +34,7 @@ async function initMenu() {
     // botón de navegación
     const btn = document.createElement('button');
     btn.className = 'cat-btn' + (i === 0 ? ' active' : '');
-    btn.textContent = cat.nombre;
+    btn.textContent = `${getEmoji(cat.nombre)} ${cat.nombre}`;
     btn.dataset.target = slug;
     btn.addEventListener('click', () => {
       document.getElementById(slug).scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -36,7 +48,7 @@ async function initMenu() {
 
     section.innerHTML = `
       <div class="categoria-header">
-        <svg viewBox="0 0 24 24"><path d="M2,18 Q6,6 12,6 Q18,6 20,14 Q21,18 17,19 Q13,13 8,13 Q4,13 3,20 Z"/></svg>
+        <span class="categoria-emoji" aria-hidden="true">${getEmoji(cat.nombre)}</span>
         <h2>${cat.nombre}</h2>
         <div class="categoria-linea"></div>
       </div>
