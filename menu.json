@@ -6,7 +6,7 @@
     {
       "nombre": "Cafetería",
       "items": [
-        { "nombre": "Espresso", "precio": "" },
+        { "nombre": "Espresso", "precio": "1500" },
         { "nombre": "Ristretto", "precio": "" },
         { "nombre": "Cortado en jarro", "precio": "" },
         { "nombre": "Café con leche doble", "precio": "" },
